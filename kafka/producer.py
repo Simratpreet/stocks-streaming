@@ -10,10 +10,7 @@ stocks_dict = json.load(f)
 
 stocks = stocks_dict.keys()
 
-access_token = "197384707-RXwbcS6kfqvAgEFur9swvK7HPryi96o6OPqOV0CD"
-access_token_secret =  "GRZavLJckUIwAQoG8eH8877FuPjmEOzXh76CsSgflVMPR"
-api_key =  "fbXU3hEpWvOLmUPlmwyhzFgAL"
-api_secret =  "bKbPgFtyXlzOfMcoU9DNgG8rKL3DNfjMy4X1jnXMeUSNwSLpdQ"
+
 
 class StdOutListener(StreamListener):
     def on_data(self, data):
